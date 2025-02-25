@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:weektasks/widgets/blueContainer.dart';
+import 'package:weektasks/day1/widgets/blueContainer.dart';
+
 
 class Gridicons extends StatelessWidget {
   final double height,width;
