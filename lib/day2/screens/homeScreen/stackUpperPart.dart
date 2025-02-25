@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 
 class Stackupperpart extends StatelessWidget {
   final double height,width;
-  const Stackupperpart({super.key, required this.height,required this.width});
+  final int i;
+  Stackupperpart({super.key, required this.height,required this.width,required this.i});
+  List<String>names=[" Kranthi Vir"," Kabib "," takumora "," hajeme ippo "," ali "];
+  
 
   @override
   Widget build(BuildContext context) {
@@ -44,7 +47,7 @@ class Stackupperpart extends StatelessWidget {
                   shape: BoxShape.circle
                 ),
               )
-              ,Text(" Kranthi Vir ",style: TextStyle(color: Colors.white,fontSize: 30),),
+              ,Text(names[i],style: TextStyle(color: Colors.white,fontSize: 30),),
               Container(
                 
                 height: width/10 ,
