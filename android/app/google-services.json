@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "444330182387",
+    "project_id": "kranthigadiproject",
+    "storage_bucket": "kranthigadiproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444330182387:android:8a5d279d84938182da1986",
+        "android_client_info": {
+          "package_name": "com.example.weektasks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGZItar8UVGYoBwId4x7KVAWJwg8ffeH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
